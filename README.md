@@ -26,5 +26,5 @@ Install my-project with npm
 
 ## Links to video
 
-- [Video 1](https://drive.google.com/file/d/1yVNNbemQbNTDWUonmTK56KkemepzLaG7/view?usp=sharing)
-- [Video 2](https://drive.google.com/file/d/1k7jOAVeZ72YcswXO1Qw2p_HQ9yK4AwBz/view?usp=sharing)
+- [Recording 1](https://drive.google.com/file/d/1yVNNbemQbNTDWUonmTK56KkemepzLaG7/view?usp=sharing)
+- [Recording 2](https://drive.google.com/file/d/1k7jOAVeZ72YcswXO1Qw2p_HQ9yK4AwBz/view?usp=sharing)
