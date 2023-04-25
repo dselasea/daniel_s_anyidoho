@@ -5,7 +5,7 @@
 }
 
 .border {
-  border-bottom: 1px solid var(--primary-grey-light);
+  border-bottom: 1px solid var(--primary-grey-icon);
   background-color: var(--primary-grey-light);
 }
 
@@ -29,27 +29,35 @@ nav {
 
 .menu li,
 .user li {
-  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-.menu li a,
+.menu li:first-child {
+  padding-left: 0;
+}
+
+.menu li:nth-child(6),
+.menu li:nth-child(7) {
+  display: none;
+}
+
+nav .gb_desktop {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-right: 2.5rem;
+  color: var(--primary-dark);
+}
+
+.menu li .links,
 .user li a {
   font-size: 1rem;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
-  color: var(--grey-dark);
+  color: var(--primary-grey-icon);
 }
 
 .mobile_btn {
   display: none;
-}
-
-.gb_desktop {
-  font-weight: bolder;
-  margin-right: 2.5rem;
-}
-
-.gb_desktop a {
-  color: var(--primary-dark);
 }
 
 .gb_mobile {
@@ -67,12 +75,15 @@ nav {
   background-color: var(--primary-cyan-dark);
 }
 
-.signout {
+.user .signout {
   color: var(--primary-dark);
   font-weight: 700;
 }
 
 @media screen and (max-width: 720px) {
+  .navbar {
+    justify-content: space-between;
+  }
   .mobile_btn {
     position: absolute;
     display: block;
@@ -80,12 +91,12 @@ nav {
     cursor: pointer;
   }
 
-  .navbar {
-    justify-self: center;
-  }
   .gb_mobile {
     display: block;
     margin: auto;
+    padding-left: 5rem;
+    font-weight: bold;
+    font-size: 2rem;
   }
 
   .gb_desktop {
@@ -110,6 +121,19 @@ nav {
     background-color: var(--primary-grey-light);
     transition: left 0.5s;
   }
+  
+.menu li {
+    padding: 1rem 0;
+}
+
+.menu li:nth-child(5) {
+    display: none;
+}
+
+.menu li:nth-child(6),
+.menu li:nth-child(7) {
+  display: block;
+}
 
   .active {
     left: 0;

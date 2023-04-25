@@ -17,6 +17,7 @@
 .language p {
   font-size: 1.2rem;
   color: var(--primary-grey-icon);
+  margin: 1.5rem 0;
 }
 
 @media screen and (min-width: 1020px) {
@@ -25,9 +26,5 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     text-align: left;
-  }
-
-  .language p {
-    margin: 1.5rem 0;
   }
 }
