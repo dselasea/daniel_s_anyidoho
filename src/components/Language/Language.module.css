@@ -1,0 +1,33 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.language {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.language h2 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.language p {
+  font-size: 1.2rem;
+  color: var(--primary-grey-icon);
+}
+
+@media screen and (min-width: 1020px) {
+  .language {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: left;
+  }
+
+  .language p {
+    margin: 1.5rem 0;
+  }
+}

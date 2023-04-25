@@ -6,6 +6,7 @@
 
 .border {
   border-bottom: 1px solid var(--primary-grey-light);
+  background-color: var(--primary-grey-light);
 }
 
 .navbar {
@@ -28,7 +29,7 @@ nav {
 
 .menu li,
 .user li {
-  padding: 1rem;
+  padding-right: 1rem;
 }
 
 .menu li a,

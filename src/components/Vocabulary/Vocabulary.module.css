@@ -1,0 +1,34 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.vocabulary {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: var(--primary-grey-light);
+}
+
+.vocabulary h2 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.vocabulary p {
+  font-size: 1.2rem;
+  color: var(--primary-grey-icon);
+}
+
+@media screen and (min-width: 1020px) {
+  .vocab {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: left;
+  }
+
+  .vocabulary p {
+    margin: 1.5rem 0;
+  }
+}

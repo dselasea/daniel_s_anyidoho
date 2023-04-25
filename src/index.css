@@ -14,12 +14,13 @@
   --primary-dark: #000;
   --primary-grey-light: #f6f5f4;
   --grey-dark: #585858;
+  --primary-grey-icon: #bababa;
   
 }
 
 
 body {
-  font-family: 'Dela Gothic One', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.3;
 }
@@ -30,7 +31,8 @@ h3,
 h4, 
 h5, 
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  
+  font-family: 'Dela Gothic One', cursive;
 }
 
 a {
@@ -41,3 +43,18 @@ ul li {
   list-style-type: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  padding: 0.8rem 1rem;
+  border-radius: 50px;
+  border: 0;
+  background-color: var(--primary-cyan-light);
+  color: var(--primary-cyan-dark);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

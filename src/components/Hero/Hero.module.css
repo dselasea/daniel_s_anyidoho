@@ -1,0 +1,78 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero {
+  background-color: var(--primary-grey-light);
+  padding: 3rem 0;
+}
+
+.hero h1 {
+  margin: 0.8rem 0;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 3.5rem;
+}
+
+.hero p {
+  margin-bottom: 1rem;
+}
+
+.hero_text {
+  text-align: center;
+}
+
+.hero_text span {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-cyan-dark)
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+}
+
+.numbers span {
+  color: var(--primary-dark);
+  font-size: 1.5rem;
+}
+
+.numbers .plus {
+  color: var(--primary-cyan-dark);
+}
+
+.numbers .text {
+  font-size: 0.8rem;
+  display: block;
+  font-weight: 500;
+}
+
+.hero_image {
+  text-align: center;
+}
+
+@media screen and (min-width: 1020px) {
+  .hero .hero_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .numbers {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.numbers span {
+  font-size: 2rem;
+}
+
+  .hero_text {
+    text-align: left;
+  }
+}
