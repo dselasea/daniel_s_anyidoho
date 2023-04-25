@@ -13,6 +13,7 @@
   --primary-pink-light: #f2d4dc;
   --primary-dark: #000;
   --primary-grey-light: #f6f5f4;
+  --grey-dark: #585858;
   
 }
 
@@ -39,3 +40,4 @@ a {
 ul li {
   list-style-type: none;
 }
+
